@@ -71,14 +71,13 @@ class ViewController: UIViewController {
             let labelNumber = numberFormatter.number(from: labelText)?.doubleValue
         else { return }
         
-        if case .operation(let lastOperation) = calculationHistory.last {
+        if case .operation = calculationHistory.last {
             calculationHistory.removeLast()
             calculationHistory.append(.operation(buttonOperation))
         } else {
             calculationHistory.append(.number(labelNumber))
             calculationHistory.append(.operation(buttonOperation))
         }
-        print(calculationHistory)
         resetLabelText()
     }
     
