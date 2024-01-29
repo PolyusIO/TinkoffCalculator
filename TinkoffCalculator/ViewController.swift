@@ -101,12 +101,25 @@ class ViewController: UIViewController {
         } catch {
             label.text = "Ошибка"
         }
+        result = label.text ?? "NoData"
         calculationHistory.removeAll()
         calculated = true
     }
     
+    @IBAction func showCalculationsList() {
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let calculationsListVC = sb.instantiateViewController(identifier: "CalculationsListViewController")
+        if let vc = calculationsListVC as? CalculationsListViewController {
+            vc.result = result
+        }
+        navigationController?.pushViewController(calculationsListVC, animated: true)
+    }
+    
+    
+    
     var calculationHistory: [CalculationHistoryItem] = []
     var calculated = false
+    var result = "NoData"
     
     
     lazy var numberFormatter: NumberFormatter = {

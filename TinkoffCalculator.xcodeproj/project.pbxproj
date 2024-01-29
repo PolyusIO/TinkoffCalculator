@@ -16,6 +16,7 @@
 		8B6F737A2B6566D000FEFE68 /* TinkoffCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F73792B6566D000FEFE68 /* TinkoffCalculatorTests.swift */; };
 		8B6F73842B6566D000FEFE68 /* TinkoffCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F73832B6566D000FEFE68 /* TinkoffCalculatorUITests.swift */; };
 		8B6F73862B6566D000FEFE68 /* TinkoffCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F73852B6566D000FEFE68 /* TinkoffCalculatorUITestsLaunchTests.swift */; };
+		8B6F73D12B684AF300FEFE68 /* CalculationsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F73D02B684AF300FEFE68 /* CalculationsListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8B6F737F2B6566D000FEFE68 /* TinkoffCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinkoffCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B6F73832B6566D000FEFE68 /* TinkoffCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkoffCalculatorUITests.swift; sourceTree = "<group>"; };
 		8B6F73852B6566D000FEFE68 /* TinkoffCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkoffCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B6F73D02B684AF300FEFE68 /* CalculationsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationsListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				8B6F73622B6566CD00FEFE68 /* AppDelegate.swift */,
 				8B6F73642B6566CD00FEFE68 /* SceneDelegate.swift */,
 				8B6F73662B6566CD00FEFE68 /* ViewController.swift */,
+				8B6F73D02B684AF300FEFE68 /* CalculationsListViewController.swift */,
 				8B6F73682B6566CD00FEFE68 /* Main.storyboard */,
 				8B6F736B2B6566CF00FEFE68 /* Assets.xcassets */,
 				8B6F736D2B6566CF00FEFE68 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B6F73D12B684AF300FEFE68 /* CalculationsListViewController.swift in Sources */,
 				8B6F73672B6566CD00FEFE68 /* ViewController.swift in Sources */,
 				8B6F73632B6566CD00FEFE68 /* AppDelegate.swift in Sources */,
 				8B6F73652B6566CD00FEFE68 /* SceneDelegate.swift in Sources */,
